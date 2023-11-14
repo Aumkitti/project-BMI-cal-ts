@@ -1,6 +1,5 @@
 import { useState } from "react";
 import BMICalculator from "./BMICalculator";
-import React from "react";
 
 function BMICalculatorComponent() {
   const [weight, setWeight] = useState<string>("");
